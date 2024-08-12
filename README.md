@@ -21,4 +21,4 @@ This is a simple web application that allows users to search for real-time stock
 
 ## Running the App
 
-Run `npm run dev`. The app will be found at [http://localhost:3000]
+Run `npm run dev`. The app will be found at [http://localhost:3000](http://localhost:3000)
