@@ -6,7 +6,7 @@ This is a simple web application that allows users to search for real-time stock
 
 - **Search for Stock Prices:** Input a stock symbol (e.g., NFLX) to retrieve the current stock price in real-time.
 - **Handle Errors:** The app displays an error message if the user searches for a non-existent or invalid stock symbol.
-- **Real-Time Data:** Fetches real-time stock data using the Alpha Advantage API.
+- **Real-Time Data:** Fetches real-time stock data using the Polygon.io API.
 
 ## Installation
 
