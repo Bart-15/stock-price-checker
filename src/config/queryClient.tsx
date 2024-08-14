@@ -11,7 +11,7 @@ export function generateQueryClient(): QueryClient {
         refetchInterval: 6 * (60 * 1000), // 6 mins
       },
     },
-  }); // soon, will edit the global config
+  }); // and other config here
 }
 
 export const queryClient = generateQueryClient();

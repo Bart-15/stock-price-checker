@@ -19,3 +19,16 @@ export const H1Heading = styled(Typography)(({ theme }) => ({
     fontSize: '4.5rem', // Font size for extra-large screens >= 1920px
   },
 }));
+
+export const Heading3 = styled(Typography)(({ theme }) => ({
+  fontSize: '1.75rem',
+  [theme.breakpoints.up('sm')]: {
+    fontSize: '2rem',
+  },
+  [theme.breakpoints.up('md')]: {
+    fontSize: '2.25rem',
+  },
+  [theme.breakpoints.up('lg')]: {
+    fontSize: '2.5rem',
+  },
+}));

@@ -1,8 +1,10 @@
 export async function searchStock(query: string) {
-  const apiKey = process.env.ALPHA_ADVANTAGE_API_KEY;
+  const apiKey = process.env.POLYGON_API_KEY;
+
+  const capitalizedQuery = query.toUpperCase().trim();
 
   const data = await fetch(
-    `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${query}&apikey=${apiKey}`,
+    `https://api.polygon.io/v2/aggs/ticker/${capitalizedQuery}/prev?apiKey=${apiKey}`,
   );
   const response = await data.json();
 

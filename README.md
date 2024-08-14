@@ -10,14 +10,14 @@ This is a simple web application that allows users to search for real-time stock
 
 ## Installation
 
-1. Create a free account at [Aplpha Advantage](https://www.alphavantage.co) and copy the api key.
+1. Create a free account at [Polygon.io](https://polygon.io) and copy the api key.
 1. Clone the repository `https://github.com/Bart-15/stock-price-checker.git`
 1. `cd stock-price-checker`
 1. Run `npm install`
 1. Run `cp .env.local_template .env.local`
 1. In _.env.local_:
 
-- Add the Alpha Advantage api key as the value for `ALPHA_ADVANTAGE_API_KEY`
+- Add the Polygon api key as the value for `POLYGON_API_KEY`
 
 ## Running the App
 
